@@ -111,6 +111,7 @@ main{
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     /* Agregamos un scroll a la section con: */
     overflow-y: scroll;
@@ -119,7 +120,6 @@ main{
 main .cars-list{
     width: 100%;
     padding: 1rem;
-    flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
